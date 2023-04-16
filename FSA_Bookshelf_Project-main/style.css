@@ -1,0 +1,85 @@
+/* Sets the default font family and size */
+body {
+    font-family: Serif;
+    font-size: 1.618rem;
+    background-color: #f7f7f7;
+  }
+  
+  /* Centers the heading */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Styles the main section */
+  section {
+    max-width: 61.8%;
+    margin: auto;
+    padding: 1rem;
+    background-color: #f7f7f7;
+  }
+  
+  /* Styles the book list */
+  ol {
+    padding: 0;
+  }
+  
+  /* Styles each book item */
+  li {
+    margin-bottom: 1.618rem;
+    padding: 1.618rem;
+    background-color: #ffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.382);
+    border-radius: 2.618rem;
+  }
+  
+  /* Styles the book title */
+  li h2 {
+    margin: 0;
+    margin-bottom: .618rem;
+  }
+  
+  /* Styles the book author */
+  li i {
+    color: #777;
+  }
+  
+  /* Styles the book subject and language */
+  li p {
+    margin: 0;
+    font-size: 1rem;
+    color: #222;
+  }
+  
+  /* Styles the nav bar */
+  nav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Styles nav bar links */
+  .nav-link {
+    display: inline-block;
+  }
+  
+  /* Styles nav bar link text */
+  .nav-link a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  /* Styles nav bar during hover */
+  .nav-link a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* Styles the "Add Book" forum */
+#add-book-form {
+  text-align: center;
+}
+
+/* Keeps lengthy comments inside element */
+.comments-container {
+  word-wrap: break-word;
+}

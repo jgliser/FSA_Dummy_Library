@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Library</title>
+    <script defer src="js/book-data.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-link"><a href="home.html">Home</a></div>
+        <div class="nav-link"><a href="about.html">About</a></div>
+        <div class="nav-link"><a href="library.html">Library</a></div>
+    </nav>
+    <!-- Header -- Input Form -- Books -->
+    <section>
+        <h1>Welcome to the Library!</h1>
+        <form id="add-book-form">
+            <label for="title-input">Title:</label>
+            <input type="text" id="title-input" name="title-input" required>
+            <br>
+            <label for="author-input">Author:</label>
+            <input type="text" id="author-input" name="author-input" required>
+            <br>
+            <label for="subject-input">Subject:</label>
+            <input type="text" id="subject-input" name="subject-input" required>
+            <br>
+            <label for="language-input">Language:</label>
+            <input type="text" id="language-input" name="language-input" required>
+            <br>
+            <button type="submit" id="add-book-btn">Add Book</button>
+          </form>
+        <div id="Library"></div>
+    </section>
+</body>
+</html>
